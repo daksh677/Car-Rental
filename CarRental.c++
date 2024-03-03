@@ -506,7 +506,7 @@ void rent_car(User &user, int car_id)
         cout << "All Cars and their Rentees:\n";
         for (const auto &car : cars)
         {
-            cout << "Car ID: " << car.id << ", Model: " << car.model << ", Rental Price: ₹" << car.rental_price << endl;
+            cout << "Car ID: " << car.id << ", Model: " << car.model << ", Rental Price: " << car.rental_price << endl;
             if (!car.is_available)
             {
                 cout << "   Rented to:";
