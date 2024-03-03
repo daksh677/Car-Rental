@@ -39,30 +39,7 @@ bool isAlpha(const string &str) {
 }
 
 
-// int getValidPositiveIntegerInput()
-// {
-//     string input;
-//     int num;
 
-//     do
-//     {
-//         cin >> input;
-
-//         if (isInteger(input))
-//         {
-//             stringstream ss(input);
-//             ss >> num;
-//             return num;
-//         }
-//         else
-//         {
-//             cout << "Error: Input must be an integer." << endl;
-//             cout << "Enter input again: ";
-//             cin.clear();                                         
-//             cin.ignore(numeric_limits<streamsize>::max(), '\n'); 
-//         }
-//     } while (true);
-// }
 int getValidPositiveIntegerInput()
 {
     int num;
