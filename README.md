@@ -6,8 +6,8 @@
 - Type the following commands in the terminal:
   
   
-  g++ solution.cpp -o solution.exe
-  ./solution.exe
+  g++ CarRental.c++ -o CarRental.exe
+  ./CarRental.exe
   
 - You will have successfully started the program.
 
