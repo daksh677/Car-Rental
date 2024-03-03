@@ -18,7 +18,7 @@
 - The database for Cars stores the attributes: Car ID , Model Name ,  Rent Price ,  (in order)
 - The database for Customers stores the attributes: Customer ID , Customer Name, Customer Record (Number of cars rented ),IDs of the cars rented (in order)
 - The database for Employees stores the attributes: Employee ID , Employee Name ,Employee Record (Number of cars rented ),  IDs of the cars rented (in order)
-
+- There must not be a existing database before running the program
 <h1>Dummy Data for Databases</h1>
 <h3>NOTE.In Dummy database first id is given and then username is given i.e,(id,username)</h3>
 <h2>2. Customer Database</h2>
@@ -73,6 +73,7 @@
 - Customers/Employees can rent and return Cars.
 - Customer/Employee rental record differ for different users.
 - All IDs will take only positive integer as input.
+- If you want to run program again after using one time then you have to first delete the existing database first then program will work.
 
 <h1>Structure of Program</h1>
 
